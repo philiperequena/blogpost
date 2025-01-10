@@ -1,0 +1,9 @@
+services:
+  postgres-phr-blog-post:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=blogpost'
+      - 'POSTGRES_PASSWORD=blogpost'
+      - 'POSTGRES_USER=blogpost'
+    ports:
+      - '5433:5432'
