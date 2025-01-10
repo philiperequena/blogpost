@@ -32,8 +32,8 @@ Follow these steps to get your project up and running.
 Start by cloning the project repository:
 
 ```bash
-git clone https://github.com/your-username/blogging-platform-api.git
-cd blogging-platform-api
+git clone https://github.com/philiperequena/blogpost.git
+cd blogpost
 ```
 
 ### 2. **Configure Ports for PostgreSQL and API**
